@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+h1 {
+  color: orange;
+}
+
+.headerInner {
+  width: 650px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  height: 80px;
+}
+
+main {
+  height: 300px;
+}
+
+.mainInner {
+  width: 650px;
+  margin: auto;
+}
+
+.headerInner,
+.mainInner {
+  max-width: 650px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+footer {
+  height: 120px;
+  background: #eeeeee;
+}
+
+.footerInner {
+  text-align: center;
+  margin-top: 50px;
+  padding: 30px;
+}
